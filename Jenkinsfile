@@ -8,7 +8,7 @@ pipeline {
         ECR_REPO_NAME = 'selenium' 
         DOCKER_IMAGE_NAME = 'selenium-chrome:latest' 
         DOCKERFILE_PATH = 'Dockerfile' 
-        dkr = 'docker' 
+        dkr= 'docker' 
     }
 
     stages {
