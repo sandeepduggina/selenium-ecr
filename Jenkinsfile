@@ -4,10 +4,10 @@ pipeline {
     environment {
         AWS_CREDENTIALS = 'it-programmatic-user' 
         AWS_REGION = 'us-east-1' 
-        AWS_ACCOUNT_ID = '365351759635'
+        AWS_ACCOUNT_ID = '905418303594'
         ECR_REPO_NAME = 'selenium' 
         DOCKER_IMAGE_NAME = 'selenium-chrome:latest' 
-        DOCKERFILE_PATH = 'vndly/dockerfile' 
+        DOCKERFILE_PATH = 'Dockerfile' 
     }
 
     stages {
